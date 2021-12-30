@@ -1,0 +1,83 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .first-nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 7px 0;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        margin-right: 40px;
+        list-style: none;
+      }
+    }
+
+    .btn__container {
+      display: flex;
+
+      .login__btn {
+        margin-right: 30px;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 5px;
+        color: $light-green;
+        background-color: transparent;
+      }
+
+      .register__btn {
+        border: none;
+        background-color: $light-green;
+        padding: 10px 25px;
+        border-radius: 5px;
+        color: $light-color;
+      }
+    }
+  }
+
+  .second__nav {
+    display: flex;
+    background-color: $dark-green;
+    width: 100%;
+    padding: 10px 0;
+
+    .nav__two__container {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 75%;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+
+        li {
+          list-style: none;
+
+          a {
+            text-decoration: none;
+            color: $light-color;
+          }
+        }
+      }
+
+      .contact__btn {
+        border: none;
+        background-color: $light-green;
+        padding: 10px 35px;
+        color: $light-color;
+        border-radius: 5px;
+      }
+    }
+  }
+}
